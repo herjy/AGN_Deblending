@@ -1,0 +1,619 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                30729 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
+<VOTABLE version='1.1'>
+<!--
+ !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
+ !  Describes BINTABLE extensions in following HDUs
+ !-->
+<RESOURCE>
+<TABLE name="Joined" nrows="72">
+<PARAM arraysize="81" datatype="char" name="COMMENT" value="
+*** End of mandatory fields ***
+
+
+*** Column formats ***
+
+
+*** Column names ***
+">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="CDS-CAT" value="J/ApJS/224/24">
+<DESCRIPTION>Catalogue designation in CDS nomenclature</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="24" datatype="char" name="CDS-NAME" value="J/ApJS/224/24/cosmos2015">
+<DESCRIPTION>Table name in METAtab</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="UCD__1" value="pos.eq.ra;meta.main">
+<DESCRIPTION>...............................byte#0</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="UCD__2" value="pos.eq.dec;meta.main">
+<DESCRIPTION>..............................byte#8</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__3" value="meta.id;meta.main">
+<DESCRIPTION>................................byte#16</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__4" value="meta.code">
+<DESCRIPTION>................................byte#20</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__5" value="phys.size.radius">
+<DESCRIPTION>................................byte#21</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__6" value="phys.size.radius">
+<DESCRIPTION>................................byte#29</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__7" value="phot.color.excess">
+<DESCRIPTION>................................byte#33</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__8" value="meta.code">
+<DESCRIPTION>................................byte#37</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__9" value="meta.code">
+<DESCRIPTION>................................byte#39</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__10" value="meta.code">
+<DESCRIPTION>................................byte#40</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__11" value="meta.code">
+<DESCRIPTION>................................byte#41</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__12" value="phot.mag;em.IR.K">
+<DESCRIPTION>................................byte#42</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__13" value="stat.error">
+<DESCRIPTION>................................byte#50</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__14" value="phot.mag;em.IR.K">
+<DESCRIPTION>................................byte#58</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="UCD__15" value="stat.error;phot.mag;em.IR.K">
+<DESCRIPTION>.......................byte#66</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__16" value="phot.mag;em.IR.J">
+<DESCRIPTION>................................byte#74</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__17" value="stat.error">
+<DESCRIPTION>................................byte#82</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__18" value="phot.mag;em.IR.J">
+<DESCRIPTION>................................byte#90</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="28" datatype="char" name="UCD__19" value="stat.error;phot.mag;em.opt.B">
+<DESCRIPTION>......................byte#98</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__20" value="phot.mag;em.IR.H">
+<DESCRIPTION>................................byte#106</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__21" value="stat.error">
+<DESCRIPTION>................................byte#114</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__22" value="phot.mag;em.IR.H">
+<DESCRIPTION>................................byte#122</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="UCD__23" value="stat.error;phot.mag;em.IR.H">
+<DESCRIPTION>.......................byte#130</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__24" value="phot.mag;em.IR.J">
+<DESCRIPTION>................................byte#138</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__25" value="stat.error">
+<DESCRIPTION>................................byte#146</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__26" value="phot.mag;em.IR.J">
+<DESCRIPTION>................................byte#154</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="UCD__27" value="stat.error;phot.mag;em.IR.J">
+<DESCRIPTION>.......................byte#162</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__28" value="phot.mag;em.opt.B">
+<DESCRIPTION>................................byte#170</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__29" value="stat.error">
+<DESCRIPTION>................................byte#178</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__30" value="phot.mag;em.opt.B">
+<DESCRIPTION>................................byte#186</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="28" datatype="char" name="UCD__31" value="stat.error;phot.mag;em.opt.B">
+<DESCRIPTION>......................byte#190</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__32" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#198</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__33" value="stat.error">
+<DESCRIPTION>................................byte#206</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__34" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#214</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="28" datatype="char" name="UCD__35" value="stat.error;phot.mag;em.opt.V">
+<DESCRIPTION>......................byte#218</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__36" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#226</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__37" value="stat.error">
+<DESCRIPTION>................................byte#234</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__38" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#242</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="UCD__39" value="stat.error;phot.mag">
+<DESCRIPTION>...............................byte#246</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__40" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#254</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__41" value="stat.error">
+<DESCRIPTION>................................byte#262</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__42" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#270</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="28" datatype="char" name="UCD__43" value="stat.error;phot.mag;em.opt.R">
+<DESCRIPTION>......................byte#274</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__44" value="phot.mag;em.opt.U">
+<DESCRIPTION>................................byte#282</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="26" datatype="char" name="UCD__45" value="stat.error;pos.cartesian.x">
+<DESCRIPTION>........................byte#290</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__46" value="phot.mag;em.opt.U">
+<DESCRIPTION>................................byte#298</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="28" datatype="char" name="UCD__47" value="stat.error;phot.mag;em.opt.U">
+<DESCRIPTION>......................byte#306</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__48" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#310</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__49" value="stat.error">
+<DESCRIPTION>................................byte#318</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__50" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#326</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="UCD__51" value="stat.error;phot.mag">
+<DESCRIPTION>...............................byte#330</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__52" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#334</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__53" value="stat.error">
+<DESCRIPTION>................................byte#342</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__54" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#350</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="UCD__55" value="stat.error;phot.mag">
+<DESCRIPTION>...............................byte#354</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__56" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#358</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__57" value="stat.error">
+<DESCRIPTION>................................byte#366</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__58" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#374</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__59" value="stat.error">
+<DESCRIPTION>................................byte#378</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__60" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#382</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__61" value="stat.error">
+<DESCRIPTION>................................byte#390</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__62" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#398</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__63" value="stat.error">
+<DESCRIPTION>................................byte#402</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__64" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#406</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__65" value="stat.error">
+<DESCRIPTION>................................byte#414</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__66" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#422</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__67" value="stat.error">
+<DESCRIPTION>................................byte#426</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__68" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#430</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__69" value="stat.error">
+<DESCRIPTION>................................byte#438</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__70" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#446</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__71" value="stat.error">
+<DESCRIPTION>................................byte#450</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__72" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#454</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__73" value="stat.error">
+<DESCRIPTION>................................byte#462</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__74" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#466</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__75" value="stat.error">
+<DESCRIPTION>................................byte#470</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__76" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#474</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__77" value="stat.error">
+<DESCRIPTION>................................byte#482</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__78" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#490</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__79" value="stat.error">
+<DESCRIPTION>................................byte#494</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__80" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#498</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__81" value="stat.error">
+<DESCRIPTION>................................byte#506</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__82" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#514</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__83" value="stat.error">
+<DESCRIPTION>................................byte#518</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__84" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#522</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__85" value="stat.error">
+<DESCRIPTION>................................byte#530</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__86" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#538</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__87" value="stat.error">
+<DESCRIPTION>................................byte#542</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__88" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#546</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__89" value="stat.error">
+<DESCRIPTION>................................byte#554</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__90" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#558</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__91" value="stat.error">
+<DESCRIPTION>................................byte#562</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__92" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#566</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__93" value="stat.error">
+<DESCRIPTION>................................byte#574</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__94" value="phot.mag;em.opt.V">
+<DESCRIPTION>................................byte#578</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__95" value="stat.error">
+<DESCRIPTION>................................byte#582</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__96" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#586</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__97" value="stat.error">
+<DESCRIPTION>................................byte#594</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__98" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#602</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__99" value="stat.error">
+<DESCRIPTION>................................byte#606</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__100" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#610</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__101" value="stat.error">
+<DESCRIPTION>................................byte#618</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__102" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#626</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__103" value="stat.error">
+<DESCRIPTION>................................byte#630</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__104" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#634</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__105" value="stat.error">
+<DESCRIPTION>................................byte#642</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__106" value="phot.mag;em.opt.R">
+<DESCRIPTION>................................byte#650</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__107" value="stat.error">
+<DESCRIPTION>................................byte#654</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__108" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#658</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__109" value="stat.error">
+<DESCRIPTION>................................byte#666</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__110" value="phot.mag;em.opt.I">
+<DESCRIPTION>................................byte#674</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__111" value="stat.error">
+<DESCRIPTION>................................byte#678</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="UCD__112" value="phot.mag;em.IR.3-4um">
+<DESCRIPTION>..............................byte#682</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__113" value="stat.error">
+<DESCRIPTION>................................byte#690</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="UCD__114" value="phot.mag;em.IR.4-8um">
+<DESCRIPTION>..............................byte#698</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__115" value="stat.error">
+<DESCRIPTION>................................byte#706</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="29" datatype="char" name="UCD__116" value="phot.flux.density;em.IR.4-8um">
+<DESCRIPTION>.....................byte#714</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__117" value="stat.error">
+<DESCRIPTION>................................byte#722</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="30" datatype="char" name="UCD__118" value="phot.flux.density;em.IR.8-15um">
+<DESCRIPTION>....................byte#730</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__119" value="stat.error">
+<DESCRIPTION>................................byte#738</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__120" value="phot.mag;em.IR.H">
+<DESCRIPTION>................................byte#746</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__121" value="stat.error">
+<DESCRIPTION>................................byte#754</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__122" value="phot.mag;em.IR.H">
+<DESCRIPTION>................................byte#762</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="UCD__123" value="stat.error;phot.mag;em.IR.H">
+<DESCRIPTION>.......................byte#766</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__124" value="phot.mag;em.IR.K">
+<DESCRIPTION>................................byte#774</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__125" value="stat.error">
+<DESCRIPTION>................................byte#782</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__126" value="phot.mag;em.IR.K">
+<DESCRIPTION>................................byte#786</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="UCD__127" value="stat.error;phot.mag">
+<DESCRIPTION>...............................byte#790</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__128" value="phot.mag;em.IR.J">
+<DESCRIPTION>................................byte#798</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__129" value="stat.error">
+<DESCRIPTION>................................byte#806</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="UCD__130" value="phot.mag;em.IR.J">
+<DESCRIPTION>................................byte#810</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="UCD__131" value="stat.error;phot.mag">
+<DESCRIPTION>...............................byte#814</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="UCD__132" value="phot.flux.density;em.IR.15-30um">
+<DESCRIPTION>...................byte#818</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__133" value="stat.error">
+<DESCRIPTION>................................byte#826</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="UCD__134" value="meta.id.cross">
+<DESCRIPTION>................................byte#834</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="32" datatype="char" name="UCD__135" value="phot.flux.density;em.IR.60-100um">
+<DESCRIPTION>..................byte#838</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__136" value="stat.error">
+<DESCRIPTION>................................byte#842</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="36" datatype="char" name="UCD__137" value="phot.flux.density;em.mm.1500-3000GHz">
+<DESCRIPTION>..............byte#846</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__138" value="stat.error">
+<DESCRIPTION>................................byte#850</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="UCD__139" value="phot.flux.density;em.mm.750-1500GHz">
+<DESCRIPTION>...............byte#854</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__140" value="stat.error">
+<DESCRIPTION>................................byte#858</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="UCD__141" value="phot.flux.density;em.mm.750-1500GHz">
+<DESCRIPTION>...............byte#862</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__142" value="stat.error">
+<DESCRIPTION>................................byte#866</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="UCD__143" value="meta.id.cross">
+<DESCRIPTION>................................byte#870</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="UCD__144" value="meta.id.cross">
+<DESCRIPTION>................................byte#874</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="UCD__145" value="meta.id.cross">
+<DESCRIPTION>................................byte#878</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="UCD__146" value="phot.mag;em.UV">
+<DESCRIPTION>................................byte#882</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="UCD__147" value="stat.error;phot.mag;em.UV.200-300nm">
+<DESCRIPTION>...............byte#890</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="UCD__148" value="phot.mag;em.UV">
+<DESCRIPTION>................................byte#898</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="UCD__149" value="stat.error;phot.mag;em.UV.100-200nm">
+<DESCRIPTION>...............byte#906</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="UCD__150" value="meta.id.cross">
+<DESCRIPTION>................................byte#914</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="UCD__151" value="phot.flux;em.X-ray">
+<DESCRIPTION>................................byte#918</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="UCD__152" value="phot.flux;em.X-ray">
+<DESCRIPTION>................................byte#922</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="UCD__153" value="phot.flux;em.X-ray">
+<DESCRIPTION>................................byte#926</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="UCD__154" value="phot.flux;arith.ratio">
+<DESCRIPTION>.............................byte#930</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="7" datatype="char" name="UCD__155" value="meta.id">
+<DESCRIPTION>................................byte#934</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="UCD__156" value="phot.flux;em.X-ray">
+<DESCRIPTION>................................byte#936</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="UCD__157" value="phot.flux;em.X-ray">
+<DESCRIPTION>................................byte#940</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="UCD__158" value="phot.flux;em.X-ray">
+<DESCRIPTION>................................byte#944</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__159" value="src.redshift.phot">
+<DESCRIPTION>................................byte#948</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__160" value="meta.code">
+<DESCRIPTION>................................byte#952</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__161" value="src.redshift.phot">
+<DESCRIPTION>................................byte#954</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="UCD__162" value="stat.fit.param;phys.atmol.level">
+<DESCRIPTION>...................byte#962</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="UCD__163" value="stat.fit.param;phys.atmol.level">
+<DESCRIPTION>...................byte#970</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="UCD__164" value="stat.fit.chi2">
+<DESCRIPTION>................................byte#978</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="UCD__165" value="meta.number">
+<DESCRIPTION>................................byte#982</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__166" value="src.redshift.phot">
+<DESCRIPTION>................................byte#984</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="24" datatype="char" name="UCD__167" value="stat.param;meta.modelled">
+<DESCRIPTION>..........................byte#988</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__168" value="meta.code">
+<DESCRIPTION>................................byte#992</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__169" value="phys.mass">
+<DESCRIPTION>................................byte#993</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="UCD__170" value="stat.fit.param;phys.atmol.level">
+<DESCRIPTION>...................byte#997</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="UCD__171" value="stat.fit.param;phys.atmol.level">
+<DESCRIPTION>...................byte#1001</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__172" value="phys.mass">
+<DESCRIPTION>................................byte#1005</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="8" datatype="char" name="UCD__173" value="phys.SFR">
+<DESCRIPTION>................................byte#1009</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="UCD__174" value="stat.fit.param;phys.atmol.level">
+<DESCRIPTION>...................byte#1013</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="UCD__175" value="stat.fit.param;phys.atmol.level">
+<DESCRIPTION>...................byte#1017</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="8" datatype="char" name="UCD__176" value="phys.SFR">
+<DESCRIPTION>................................byte#1021</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="8" datatype="char" name="UCD__177" value="phys.SFR">
+<DESCRIPTION>................................byte#1025</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="UCD__178" value="stat.fit.param;phys.atmol.level">
+<DESCRIPTION>...................byte#1029</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="UCD__179" value="stat.fit.param;phys.atmol.level">
+<DESCRIPTION>...................byte#1033</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="8" datatype="char" name="UCD__180" value="phys.SFR">
+<DESCRIPTION>................................byte#1037</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="21" datatype="char" name="UCD__181" value="phys.luminosity;em.UV">
+<DESCRIPTION>.............................byte#1041</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="15" datatype="char" name="UCD__182" value="phys.luminosity">
+<DESCRIPTION>................................byte#1045</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="23" datatype="char" name="UCD__183" value="phys.luminosity;em.IR.K">
+<DESCRIPTION>...........................byte#1049</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="49" datatype="char" name="First input table" value="2: HSC_SDSS_WISE_QSOPHOTOZ_v4_1_COMBINED_sml.fits"/>
+<PARAM arraysize="24" datatype="char" name="Second input table" value="1: cosmos2015_short.fits"/>
+<FIELD datatype="long" name="HSC_ID"/>
+<FIELD datatype="double" name="RA"/>
+<FIELD datatype="double" name="DEC"/>
+<FIELD datatype="float" name="BEST_Z"/>
+<FIELD datatype="float" name="LOGLAGN"/>
+<FIELD datatype="double" name="SPECZ"/>
+<FIELD datatype="float" name="Bmag" unit="mag"/>
+<FIELD datatype="double" name="e_Bmag" unit="mag"/>
+<FIELD datatype="float" name="Vmag" unit="mag"/>
+<FIELD datatype="double" name="e_Vmag" unit="mag"/>
+<FIELD datatype="float" name="ipmag" unit="mag"/>
+<FIELD datatype="double" name="e_ipmag" unit="mag"/>
+<FIELD datatype="float" name="rmag" unit="mag"/>
+<FIELD datatype="double" name="e_rmag" unit="mag"/>
+<FIELD datatype="double" name="umag" unit="mag"/>
+<FIELD datatype="float" name="e_umag" unit="mag"/>
+<FIELD datatype="float" name="zpmag" unit="mag"/>
+<FIELD datatype="float" name="e_zpmag" unit="mag"/>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  108 / width of table in bytes                        NAXIS2  =                   72 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   18 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'HSC_ID  '           / label for column 1                             TFORM1  = 'K       '           / format for column 1                            TTYPE2  = 'RA      '           / label for column 2                             TFORM2  = 'D       '           / format for column 2                            TTYPE3  = 'DEC     '           / label for column 3                             TFORM3  = 'D       '           / format for column 3                            TTYPE4  = 'BEST_Z  '           / label for column 4                             TFORM4  = 'E       '           / format for column 4                            TTYPE5  = 'LOGLAGN '           / label for column 5                             TFORM5  = 'E       '           / format for column 5                            TTYPE6  = 'SPECZ   '           / label for column 6                             TFORM6  = 'D       '           / format for column 6                            TTYPE7  = 'Bmag    '           / label for column 7                             TFORM7  = 'E       '           / format for column 7                            TUNIT7  = 'mag     '           / units for column 7                             TTYPE8  = 'e_Bmag  '           / label for column 8                             TFORM8  = 'D       '           / format for column 8                            TUNIT8  = 'mag     '           / units for column 8                             TTYPE9  = 'Vmag    '           / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TUNIT9  = 'mag     '           / units for column 9                             TTYPE10 = 'e_Vmag  '           / label for column 10                            TFORM10 = 'D       '           / format for column 10                           TUNIT10 = 'mag     '           / units for column 10                            TTYPE11 = 'ipmag   '           / label for column 11                            TFORM11 = 'E       '           / format for column 11                           TUNIT11 = 'mag     '           / units for column 11                            TTYPE12 = 'e_ipmag '           / label for column 12                            TFORM12 = 'D       '           / format for column 12                           TUNIT12 = 'mag     '           / units for column 12                            TTYPE13 = 'rmag    '           / label for column 13                            TFORM13 = 'E       '           / format for column 13                           TUNIT13 = 'mag     '           / units for column 13                            TTYPE14 = 'e_rmag  '           / label for column 14                            TFORM14 = 'D       '           / format for column 14                           TUNIT14 = 'mag     '           / units for column 14                            TTYPE15 = 'umag    '           / label for column 15                            TFORM15 = 'D       '           / format for column 15                           TUNIT15 = 'mag     '           / units for column 15                            TTYPE16 = 'e_umag  '           / label for column 16                            TFORM16 = 'E       '           / format for column 16                           TUNIT16 = 'mag     '           / units for column 16                            TTYPE17 = 'zpmag   '           / label for column 17                            TFORM17 = 'E       '           / format for column 17                           TUNIT17 = 'mag     '           / units for column 17                            TTYPE18 = 'e_zpmag '           / label for column 18                            TFORM18 = 'E       '           / format for column 18                           TUNIT18 = 'mag     '           / units for column 18                            DATE-HDU= '2020-06-12T19:09:45' / Date of HDU creation (UTC)                    STILVERS= '3.0-5   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ôTÅ  io@b≈èæNÑ»?˙è˚Ó|J?AB1fìø      Aß‚Ç?wX‚e+‘A†Y?rº£n/AôÛÎ?b◊s¸PHAùQÉ?köu%F@5OAÚ◊s;#P”AñÂ,:Ÿ◊w ôT§  Öm@bøŒ°ÉrÁ@ijÑŸ5?ÂVmB6ø'?¸™Õ†   A•ßR?tº£nA¢ ¡?t„º”ZÖàAüÌë?ie+”√aA¢Ÿ?r◊s¸PH@4Ë†ê-‡:[HëAû€å;$	_ ôT≈  Z∫@bºCÊ>ç⁄@≈¸-„h?ÉB3?bÇ@   A¥Ø?á¡Ω•ú‡A≠„Ò?Ñº£nA¨^”?|¨1&ÈyAÆ`™?Ç:)«y¶µ@6gì›óˆ+;ìñJA®bÎ;Ïø± ôT¢  d@bƒsò∞›?˛Ω-ÛXR?aÇÖB2∆›ø      A®Ã0?x*ô0æÌA£^?uµsÍ≥g°A£]ò?oÚ‰éäqﬁA•Y?uLò_ˆî@4Û–|Ñµ›:ì˙ÙA†Ca;K[¥ ôTB  oÚ@b“öuÕ∑?˛‘ö¶ﬂ”:?¡BB5™n?¯(CÄ   A™Bè?züæv»¥9A¶◊?ye+”√aA¢“T?pbM“Ò©¸A§˙?t„º”ZÖà@4=≈÷8ÜY:<{FA¢[W;èBˇ ôTD  t€@b÷®Å…ô<@V£*<≠?åãDB4q7?ÒëhÄ   A¨´6?~Ov_ÿ≠¨Aßø?züæv»¥9Aß1?t„º”ZÖàAßz?x*ô0æÌ@5âË>BZÓ:ÙsA£cT;ä§3 ôTF  q}@b÷ìÀéﬂ+@	MÆﬂ{¸@…qB7ﬁˇ@ ˘.    A¶∏Ô?uLò_ˆîA¢Äù?tz·GÆ{A†Ú|?k⁄QŒ_A¢œ´?s©*0U2a@4õCïÅ%:õÂAù9¡;Ûs ôTc  h¥@bŒ2/˝Ùç@ d[Q_n%?+8qB2Õ?Âg    A£i≠?qú‡uˆ˝"A°?r◊s¸PHA†ïM?k⁄QŒ_A¢~?qú‡uˆ˝"@4|wökP±:b4=AüÇu;[ﬂè ôT£  s∆@b√BR¿ó4@ ◊ÎC∞X˘@ B8Û{@AÑ    Aü‰˜?oÚ‰éäqﬁAúÉ∞?m}øHÀíAûh
+?fç∏∫«Aüﬁ?q4ÍJå@3£ZÖáìﬁ9öècAõ´ü;å7 ôTÁ  ^Ç@b≥Á€\o@ËUn«]¯?Ò©¸B7Y6?˛5?Ä   A†ù?nOv_ÿ≠¨Aûí:?pbM“Ò©¸Aù∆t?fç∏∫«A∂ #?èä	ﬁ “@3Ú-V:-,Aùe˛;1° ôU  g£@b≤∫>Øh@ hóp mw?≠nB5ÊÔ?ı≠¿†   A†ØÉ?nOv_ÿ≠¨Aû¡ ?pbM“Ò©¸AûY¥?g¡Ω•ú‡Aû%F?l¨1&Èy@3‰tSéÛM9ı…EAù^j;Áõ ôT°  U@b¡ÕYÑ÷î?˙
+{NT˜©?ŒÍtB6#≤?˘›NÄ   A§E9?rnóçOﬂ;A°¶?s©*0U2aAü≥–?j6‚ÎC-A¢ÛÇ?r◊s¸PH@4ó1è≈Å:ZIçAüW?;3ëí ôTa  *@bÃù¬Ù?˚|ã y¢É?…
+ªB5˙?˘!W`   A•¨?s@N§®¡UA£ i?t„º”ZÖàA†€å?köu%FA¢P?qú‡uˆ˝"@4c©*0U2:JÊCA†	†;5‹∆ ôTc  ]I@bŒ–¨ãÊ@ yGﬁº?w°°B3°;?ÓÙ4    A¢§@?pÀ)^û	Aû≈m?pbM“Ò©¸A†$@?köu%FAü=?o!-w1è≈@44m≈÷8Ü:∆⁄Aû{;>¥ ôT„  rï@bµ<c]ùj@ ÆqóÚ–m?ú!B5¨?ÛÉ‰    Aßó?vOv_ÿÆA§Á?wX‚e+‘A§QÉ?r◊s¸PHAπ/∏?ïÅ$›/@4‘tSéÛM:ÇnA¢}Ù;Üh ôTC  g<@b—#ÿÇµ@ v#Îóì/?ô∑B4hŸ?Û/ˆ‡   A±:*?É›óˆ+jËAÆDú?ÑØOÑMA¨ã·?}Êö‘,<üA¨ı˜?Äˇó$tSè@6rGE8Ô;A :A©∏ª<]} ôTÁ  ^Î@b¥âÂëø±@ÌWØ~b?Ú ~B7¿æ?˛@¿   A≤¨?éÏø±[W?AñÌë?eLò_ˆîAù4n?g¡Ω•ú‡A˜7È@≤ïÈ·∞ä@3%F
+¶L9§†^AñØO:Ø_‘ ôTÑ  `’@b…ÆÿZüâ@I”{<∑@?˛ñ≠B7/vø      A£—É?rº£n/A°p§?s@N§®¡UA†wö?j6‚ÎC-A°÷9?rº£n/@4òçπ:5“µAûÀ«;–∑ ôTÜ  eÎ@b ≥2 -@~&«&(?Í‰‚B6¬z?˝\ú@   A§‚Ç?s@N§®¡UA°ÜY?s@N§®¡UA†ö?köu%FA£8ª?s©*0U2a@40[¿6„:)∂GAü†';;°+ ôT‰  j.@b∑•ÅdÆ@ƒpLÃ?ÉJB4óÄ?`È@   A¶¢—?uLò_ˆîA†l"?rnóçOﬂ;Aû¢h?ie+”√aA† 4?pbM“Ò©¸@4˜8}øH:µà„Aù;+£á ôP  e¢@b≠«∑∫@tQ[<fπ?ÆSeB5·?ı l†   A§o5?r◊s¸PHA¢&µ?tº£nA¢\?m}øHÀíA∏–H?íΩ<64@4yá+:ò‘xA¢)«;ghZ ôTe  4@bœ˘Å@@é∞“õBÁ@π∂B7ÿ @ 76¿   Aù˝ã?j6‚ÎC-Aõ˚Á?k⁄QŒ_Aö?b◊s¸PHAúy	?j6‚ÎC-@3ô^ûö9ˆw¡Aòtà:Ãöx ôU  Z@b≤-‡?˝+|÷t+?¿›/B61Œ?¯•‡   A•§?tº£nA§Jå?vç∏∫«A†∫«?k⁄QŒ_A°‰Z?rº£n/@45œ™ÕûÑ:m÷Aü–;LÓ[ ôTÅ  o#@b <.Ô◊î?˙Á˝$Ém@cB7–R@ oÏ`   AûU2?j6‚ÎC-Aõ¡æ?k⁄QŒ_AõXy?c©*0U2aAúÅ;?ie+”√a@3∫0U2a|9˚sAôD–:œ[ ôTÖ  bI@b…Ëó-Æè@1,≠›Ù<?Ê∑B7î}?¸÷‡@   AúÆ≤?hìtºj~˙AôÔ ?hìtºj~˙Aô(¡?a4ÍJåAö≠¨?g¡Ω•ú‡@3y„º”9æ◊AAòQ:“=O ôT„  d;@b∑”UËi·@ 81A¡kp@±ƒB8Ïù@ñ8Ä   Aòx?b◊s¸PHAï∂?b◊s¸PHAú“ ?fOv_ÿÆAïÔ ?a4ÍJå@3,Lò_9çK≠AìÔi:õ˘∆ ôTÇ  vö@b«◊±,]V?˛gDóﬂÖ6?«´"B6I?¯ıd@   A£™?q4ÍJåA°é"?s@N§®¡UAûMü?fç∏∫«A†á_?pbM“Ò©¸@4)¿ÎÌ˙D:*<Aù¶Å;&¸Y ôT‰  W@b∂¡ÙafL@)*}?«?≈ˆB6î?¯æ¿    A´ò¸?|C,•zxlA¶W‹?yŒ_o“ A°±˘?nOv_ÿ≠¨A£’g?uLò_ˆî@5¸⁄QŒ;:◊ÿAüéø;F.M ôTÉ  {â@b∆ßy˜<„@ ™Æ6ﬂê?û_1B6Mß?ÛÀÊ    A£˝Ù?rº£n/AûûO?pbM“Ò©¸Aù3ú?fOv_ÿÆAú~≈?j6‚ÎC-@4ô=Ÿb∑:7e\AòM:œû8 ôT√  aé@bæñc‘@ 9´x‹ã?‡ãóB6êﬂ?¸r‡   AµÁ?äüæv»¥9AôjK?g¡Ω•ú‡Aó∑L?_!-w1è≈A∞.?ÜRΩ<64@3U%F
+¶L9àx‡Aï√a:≥p ôTÅ  ˛@b…◊ˆÃzó?˙´G&/>≤?„ïgB7Gø      A•›/?tz·GÆ{A§O?vá+I∫A£cÒ?pÀ)^û	A§ÿÆ?t„º”ZÖà@4œ˘rGE9:™C5A£ç;~i' ôT&  Ñê@b◊á&–N@åX
+É¡@(N•B8œg@	‘†   A¶Ω•?uLò_ˆîA£W®?uLò_ˆîA¢Çﬁ?nOv_ÿ≠¨A¢◊s?s©*0U2a@5j~˘€#:ÎA†-w;@  ôP  w≈@bØçhûO@ ˘¯;Ê`?t,=B3ˆM?ÓÖá†   AßY?uµsÍ≥g°A¢Ü˜?tz·GÆ{A°9ı?m}øHÀíA¢[ı?s@N§®¡U@5'RT`™:«¿ÙAùnc;0¿' ôTD  |}@b”ÉŸ˜X@ï∞…aÇ?•¡ËB5-Ç?Ù∏=    A•ø±?uLò_ˆîA°ã?s@N§®¡UA†:*?köu%FA†ı%?q4ÍJå@4Ø|Ìëhs:i¶!AüK«;4ÒÂ ôT‰  Ç÷@b∏^"À#@å&.gÚX>∞ÓçB1°c?÷—†   AüS?k⁄QŒ_Aòı˜?hìtºj~˙Aó®ˆ?`bM“Ò©¸Aóx8?c©*0U2a@3uîØOÑ9LAè”[:éõ9 ôTC  X±@b‘‰r€øØ?ˇÛ0(º∑¨?¬C˛B5ﬁ7?¯H¿   A††ê?m}øHÀíAû≥h?pbM“Ò©¸Aû'?fç∏∫«AüS?o!-w1è≈@3ÊîFsÅÿ9Ë˛\Aù∑È;=y ôTÂ  m¢@b∏	≤f:@¬WPHÌ∞?(ÁˇB2Å?Âˇ‡   AÆ '?Äñªò«‚ÇA™h?ÄbM“Ò©¸A§ëù?rº£n/A®˛≈?{qué!ñS@5ËXy=Ÿ;a÷IA¢Bƒ;ÜΩı ôTf  ÑØ@bœÏ—"<@Gw"vLç?YÖB3d?Î0æ    A®–Â?x*ô0æÌA•K)?xìtºj~˙A§î{?s@N§®¡UA•™Œ?uµsÍ≥g°@4ÁŒŸá+:„GcA†=;{⁄◊ ôTd  pV@b–’…ï‡ß@ıç—zÌ?¢πıB4e¡?ÙW>†   AØlã?Å—N;Õ5®A´µ›?Åú‡uˆ˝"A™:*?yŒ_o“ A´e…?~Ov_ÿ≠¨@5·GÆz·;é2A®)«;ﬂ¯# ôT«  j‰@bæ"∞c‡z@]Ô;ç?à^_B5Ô¢?ÒÀ‡   Aòo“?b◊s¸PHAîwœ?bº£n/Aõ´‘?dz·GÆ{AïàŒ?a4ÍJå@2—ƒ2 W®9âjwAï®X:£◊
+ ôT°  i @bø∫t•ƒJ?˚ñoB≠˙z?–eAB62'?˙®    A£ök?rº£n/A°0Ú?r◊s¸PHAüµ?ie+”√aA°ºj?qú‡uˆ˝"@42àŒp:˚:2Aüd&;(K‰ ôT¢  ^≈@b¬+•jà4?˝û§ÑØ'?èÉ⁄B4]ø      AÕ¢h?™êñªò»A»µ›?®*ô0æÌA¿|?ïõ=»K^A≈·?†∞Ú{≤˛≈@9Ÿx‘˝Û∂<≤-A∫-C<[aª ôT¶  ^¡@b√Hı›gO@>•Å.i?®ŸËB6"´?ı=    AóÜé?b◊s¸PHAîﬁ”?b◊s¸PHAùh?j6‚ÎC-A¶b?ä	ﬁ “@2˜ˆ+jÁ’9a˜◊Aï·Â:´˜j ôTF  g:@b‘H∏†≈ﬁ@ø‡€wä{?(F«B3>™?Âÿ‡   Aô‰?c©*0U2aAñÿ?eLò_ˆîAóì@?bº£n/Aó@?eLò_ˆî@3NVìu:õjAî˚J:Æ∏ ôU  u™@b≤¶O¿1¥@ﬂ‹Ï’Ä–>∞ø]B1Á3?÷Î†   Aô◊‹?dz·GÆ{Añ)¸?dz·GÆ{Aëﬂ?Vç∏∫«AúW®?ie+”√a@3Œ_o“:(“Aé.≤:xû ôTÖ  rk@b yrïT@Ø⁄πö?Ü¥cB5Á?÷å`   Aß?uµsÍ≥g°A°ı%?tº£nAüûÌ?ie+”√aA†æ‡?oÚ‰éäqﬁ@5(7¥¢3ú;¯bAú∆t;,¿æ ôT£  Tÿ@b√]ÎA˙?ˇ≤ª˙±Û>æá”B0ÌÑ?◊–˙`   AòaÂ?b◊s¸PHAób?eLò_ˆîAõ]ò?c©*0U2aAóxl?b◊s¸PH@2∆á+J9-⁄ôAëΩ•:vç ôU  q]@b±∆ÔrÍ@ øB÷>eñ?@Ö˛B2£nø      A¨}ã?~∏QÎÖ∏A™ã¨?Å4ÍJåA£6?q4ÍJåA®Tï?z6‚ÎC-@5yJÙÿE;MSAüçÑ;y	l ôTc  f3@bŒG=¨2˘@ Y"≤≤o?ñ ÔB4T¿?Úƒ‡   A∞$›?Ç◊s¸PHA©Á’?Ú‰éäqﬁA®üÛ?w¡Ω•ú‡A©‹í?{⁄QŒ_@6â7K∆®;V¬A¶G;≈¡@ ôTe  wâ@bœÅe∆-@H<QøÊ4?+öøB2€?ÂsW‡   A•Äi?s©*0U2aA§[¿?vç∏∫«Aüí?ie+”√aA¢å~?rº£n/@5+CïÅ%:Ûà"Aùò+;-öÿ ôTÉ  Ä•@b≈¿î@ ·Î4ñ‡Ç>∫uÕB0ã-?◊Nπ†   AûW??köu%FAñπX?eLò_ˆîAíﬂ?Xìtºj~˙Aïä?a4ÍJå@3ËbM“Ú:V
+cAêhß:ƒn ôT«  \%@b∫◊Ó‘^í@‰ﬁÍ¬∏? ı%B67®ø      AØ™?Å—N;Õ5®Aß∆??|¨1&ÈyA°”√?o!-w1è≈A•˚?vá+I∫@6>BZÓc <z≥Aù&È;Gh ôTß  vÏ@b¿1¢Àg@◊ ,u™?C≈XB3CÃ?Ëx´    Aù=q?hìtºj~˙Aôã¨?hìtºj~˙AùÑÍ?fç∏∫«Aö[¿?fç∏∫«@3í√…ÓÀ˚9√LAó‚N:æµ≥ ôP  gô@bØKjt@#ïér+?Õ$ÚB7C?˘§û@   Aù¬ƒ?j6‚ÎC-Aö?j6‚ÎC-Aù¶µ?g¡Ω•ú‡A∂Óò?íΩ<64@3öxl"h
+:gÇAôzx:Á›  ôP  dò@bØXY'πÇ@jÅ1√«?é!ÍB5áÃ?Òƒ=@   AûJå?köu%FAôîF?hìtºj~˙AûÌ]?ie+”√aA≤ÜY?à«‚Ç@∑Ä@3ã•„S˜œ:6èAö:˚:˘Là ôTf  {*@b–´úe¸¥@ –ù;Ââ?µ›B2H<?‡ñª†   A§Ã0?s©*0U2aAü⁄Q?rnóçOﬂ;AñôŒ?`bM“Ò©¸Aúá+?j6‚ÎC-@4ﬂÂ…‰;ôtAì◊?:ƒõ¶ ôT≈  Uô@bª«Ä'Õ@•r–◊ÙH?æ"íB5[Ü?˜ƒR@   A®Râ?wX‚e+‘A¶¨•?yŒ_o“ A§‡v?q4ÍJåA•ÎÓ?uµsÍ≥g°@4˛v»¥9X:û˝áA£˛ë;ë˚ ôTE  ä%@b—n_ƒã∂@ﬂâgÛ.?îyíB4 ?Úè2@   A†î{?nOv_ÿ≠¨Aõ≠?k⁄QŒ_AöÅ;?eLò_ˆîAõß?k⁄QŒ_@3—Œ_p:ØåAô€å:«~ ôTg  w€@bœ¥+∂g0@4")ˆt?∑ÂuB5r”?ˆ¸Æ†   A¶?tz·GÆ{A°‰&?s©*0U2aAü"ú?ie+”√aA†›Ã?q4ÍJå@4xeîØO:íâ€Aû^j;)%ˇ ôT¢  ]o@b√@HZÂ?˝íºJûâ√?’c‹B6.N?˙¨{Ä   A£¥¢?rº£n/AüüÛ?q4ÍJåAù´‘?fç∏∫«Aù¥?k⁄QŒ_@4π¿ÎÌ˙D:u!ÄAô:ì:‹π™ ôT≈  T≠@bΩm·äÏ@û{Ï	®ˆ?∫	ˇB6#C?˜A?‡   Aß⁄∫?vá+I∫A£•F?uµsÍ≥g°Aüiy?hìtºj~˙A°î‰?rº£n/@5:í£S:¢áAùŒ•;™; ôU  \@b≤‚ˆ˝º@2¢&0?≤ŒFB6;ú?ˆY»¿   A∞‰Z?Üç∏∫«AöKí?ie+”√aAûZ?ie+”√aA¥@Ï?ç„º”ZÜ@3ëè≈Åo:”Aô™:’Ñ+ ôP  lÖ@bØÓ…v÷˜@ ú¸g≈7@⁄œB8ŒK@ ;Y‡   Aö i?dz·GÆ{Aòk?fOv_ÿÆAû–H?ie+”√aAòIR?dz·GÆ{@3*xl"h
+9ã∆rAïÇ™:©º˝ ôTÉ  tJ@b ≤˜Ÿ¿—@ }”B1”∏?g+B3˙?ÏÂ`@   A•#n?s@N§®¡UA°h?r◊s¸PHA°ñ?k⁄QŒ_A°†'?rº£n/@4õ⁄QŒ:UÕ˝AûÆÊ;)ﬁã ôT£  d@bƒ®›{∂@ X$v◊Õ≤?ñø€B4Y»?Ú◊˚`   A®∏?vç∏∫«A§∂„?wX‚e+‘A§4?pbM“Ò©¸A§c?tº£n@4ﬂiDg8:\≤ÙA¢ #;rjÏ ôP  w6@bÆ: ‚~@ ˆ/“U¢ ?Ñ9êB35(ø      A®h
+?wX‚e+‘A§nÃ?vç∏∫«A•#◊?rnóçOﬂ;A•¬?vá+I∫@5!-w1ê:¿ãvA¢Öà;Ç* ôT≈  d∞@bΩX"°∏@¸§*Ì?ê∏(B4£¥?Ú    A§ïµ?r◊s¸PHA†”¯?rnóçOﬂ;A†Œ?j6‚ÎC-A†ø?pÀ)^û	@4®öu%F:äã	AûÈD;;ù ôTÉ  vJ@b∆;hV*Ø@ ãpBà?#B2KYø      A§  ?rnóçOﬂ;A†◊
+?r◊s¸PHAúBƒ?eLò_ˆîAß9$?xìtºj~˙@4∏¥9Xb:ãπAö	;à ôT•  s'@b¡·R*o?@—‘=⁄V"?°T"B5,s?Ù*Ñ@   A¶€¿?uµsÍ≥g°A§`B?vç∏∫«A£@O?pbM“Ò©¸A£†≈?s@N§®¡U@4ØˆîFt:ë:PA¢ãx;ñ=≈ ôT√  xv@bΩ…πáu´@ ÛË_–J@i≠B7‡n@ç5†   A†&µ?l¨1&ÈyAõàŒ?köu%FAõtº?c©*0U2aAõ∆t?hìtºj~˙@3˜8}øH9›Z∫AôåJ:«‚Ç ôT«  WÆ@bπÈ†B*@¡.ë?®ßB62:?ı„¿   Aü2 ?pÀ)^û	AòﬂŸ?g¡Ω•ú‡Aù"—?köu%FA⁄d&?≈+”√a@@3UÈ·∞â†9ÔH˘Aóo :·ì- ôP  Nß@bÆ˘ôI¬@∂ªê%}@“›B9Ù	@ Z[†   Aö√a?eLò_ˆîAñπı?dz·GÆ{Aù‰?fOv_ÿÆA≤¶L?à«‚Ç@∑Ä@3;~êˇó$9ô2lAî1ê:òN@                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
