@@ -1,4 +1,4 @@
-This repository contains data for quasar host galaxies deb lending. 
+This repository contains data for quasar host galaxies deblending. 
 
 * Folder `acs_mosaic_2.0` contains COSMOS HST data in band `F814w`
 * Folder `HSC_Images` contains images of the same quasars observed with HSC. It contains images for bands G, R, I, Z and Y from the deep-ultra deep fields of data release 2.
